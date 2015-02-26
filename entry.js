@@ -13,8 +13,6 @@ class TodoStore extends Store {
   constructor(flux) {
     super();
 
-    this.handleDeleteTodo = this.handleDeleteTodo.bind(this);
-
     let todoActionIds = flux.getActionIds('todos');
     this.register(todoActionIds.deleteTodo, this.handleDeleteTodo);
 
