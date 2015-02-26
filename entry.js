@@ -58,8 +58,8 @@ class Todo extends React.Component {
 
 class Todos extends React.Component {
   render() {
-    let todos = this.props.todos.toJS().map((todo, index) =>
-      <Todo key={index}>{todo}</Todo>);
+    let todos = this.props.todos.toJS().map(todo =>
+      <Todo key={todo}>{todo}</Todo>);
 
     return (
       <ul>
