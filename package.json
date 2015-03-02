@@ -14,7 +14,7 @@
     "webpack": "^1.6.0"
   },
   "dependencies": {
-    "flummox": "^2.11.0",
+    "flummox": "2.11.0",
     "immutable": "^3.6.2",
     "react": "^0.13.0-rc1"
   }

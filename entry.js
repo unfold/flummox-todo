@@ -61,6 +61,10 @@ class Todos extends React.Component {
     let todos = this.props.todos.toJS().map(todo =>
       <Todo key={todo}>{todo}</Todo>);
 
+    if (todos.length === 1) { // TODO: Workaround – flummox 2.11.0 has an issue with array containing one element
+      todos = todos[0];
+    }
+
     return (
       <ul>
         <FluxComponent>
