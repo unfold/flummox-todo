@@ -9,13 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^4.5.5",
-    "babel-loader": "^4.0.0",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
     "webpack": "^1.6.0"
   },
   "dependencies": {
-    "flummox": "2.11.0",
+    "flummox": "3.6.8",
     "immutable": "^3.6.2",
-    "react": "^0.13.0-rc1"
+    "react": "^15.4.1"
   }
 }
